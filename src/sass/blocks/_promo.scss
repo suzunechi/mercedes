@@ -1,0 +1,28 @@
+.promo {
+	position: relative;
+	min-height: calc(100vh - 100px);
+	background: url('../img/1\ 1.png') center (center / cover) no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 0px 0px 49px 0px;
+	img {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: -25px;
+	}
+	&__title {
+		font-size: 72px;
+		line-height: 120%;
+		color: #fff;
+		margin: 0px 0px 5px 0px;
+		font-family: 'Corporate A';
+	}
+	&__subtitle {
+		font-size: 24px;
+		line-height: 120%;
+		text-align: center;
+	}
+}

@@ -1,0 +1,23 @@
+.social {
+	&__list {
+		display: flex;
+		li {
+			display: flex;
+			margin: 0px 30px 0px 0px;
+			justify-content: center;
+			align-items: center;
+			width: 40px;
+			height: 40px;
+			border-radius: 50%;
+			transition: all .3s ease;
+			cursor: pointer;
+			&:hover {
+				background-color: #C1A1D2;
+				
+			}
+			&:last-child {
+				margin: 0px 0px 0px 0px;
+			}
+		}
+	}
+}
